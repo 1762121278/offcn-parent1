@@ -9,7 +9,8 @@ import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
 public class ScwRegisterApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(ScwRegisterApplication.class, args);
+
+        SpringApplication.run(ScwRegisterApplication.class);
     }
 
 }
